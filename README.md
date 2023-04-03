@@ -10,3 +10,5 @@ The following features are currently implemented in the program:
 * `reset_transaction` : Allows the user to reset the transaction history and clear the cart.
 * `checkout` : Allows the user to checkout their purchases, updating the transaction history and clearing the cart. Before checkout, the user can review the total amount due and confirm the checkout.
 * `leave_feedback` : Allow customers to leave feedback To improve the customer experience, this feedback used to improve the app in future updates.
+
+## Flowchart
