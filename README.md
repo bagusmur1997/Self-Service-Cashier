@@ -1,9 +1,5 @@
 # Supermarket Self-Service Cashier
-This is a Python program for a supermarket self-service cashier that allows customers to add items to their cart, view the cart, update items, and remove items. 
-The program also has a checkout function that generates a transaction record in an Excel file.
-
-## Background Project
-This is a self-checkout system for Andi's supermarket. The system allows customers to add items they want to add, update, delete, view item of purchase and other feature.
+This is a Python program for a supermarket self-service cashier for Andi's supermarket that allows customers to add items to their cart, view the cart, update items, and remove items and other feature. The program also has a checkout function that generates a transaction record in an Excel file.
 
 ## Features
 The following features are currently implemented in the program:
