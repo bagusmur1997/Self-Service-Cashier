@@ -18,7 +18,7 @@ The following features are currently implemented in the program:
 ### Test case 1: Add Item to Cart
 **1.A : View Our Inventoy**
 
-<img src="/img/Test A1.png"/>
+<img src="/img/Test A4.png"/>
 
 **1.B : Add Item contain in inventory list***
 
