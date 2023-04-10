@@ -1,7 +1,7 @@
 # Supermarket Self-Service Cashier
 This is a Python program for a supermarket self-service cashier for supermarket/mini-market that allows customers to add items to their cart, view the cart, update items, and remove items and other feature. The program also has a checkout function that generates a transaction record in an Excel file.
 
-![Self-Service-Cashier.py](./img/Main Menu.png)
+<img src="/img/Main Menu.png"/>
 
 ## Features
 The following features are currently implemented in the program:
