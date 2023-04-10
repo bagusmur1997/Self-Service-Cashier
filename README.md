@@ -20,11 +20,17 @@ The following features are currently implemented in the program:
 
 <img src="/img/Test A4.png"/>
 
-**1.B : Add Item contain in inventory list***
+**1.B : Add Item contain in inventory list**
 
 <img src="/img/Test A2.png"/>
 
-**1.C : Add Item contain in inventory list***
+**1.C : Add Item not contain in inventory list**
 
 <img src="/img/Test A3.png"/>
+
+**1.D : View Cart for Item already input**
+
+<img src="/img/Test A5.png"/>
+
+
 
