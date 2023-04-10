@@ -28,9 +28,18 @@ The following features are currently implemented in the program:
 
 <img src="/img/Test A3.png"/>
 
-**1.D : View Cart for Item already input**
+**1.D : View Cart**
 
 <img src="/img/Test A5.png"/>
 
+### Test case 2: Update Item from Cart
+**2.A : Update item contain in cart - change item name**
+**2.B : Update item contain in cart - change qty item**
+**2.C : Update item contain in cart - change price**
+
+
+**2.D : Update item not contain in cart**
+
+<img src="/img/Test B4.png"/>
 
 
