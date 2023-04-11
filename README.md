@@ -14,7 +14,7 @@ The following features are currently implemented in the program:
 * `display_product_list()` : Displaying the inventory list of products available for purchase. the content displays of the products is 'product name, quantity available'.
 * `leave_feedback()` : Allow customers to leave feedback To improve the customer experience, this feedback used to improve the app in future updates.
 
-### `add_item()`
+### add_item()
 This Function is essential part of the self-service cashier program because it allows customers to add items to their cart, which is crucial for the checkout process. The function ensures that the inventory is properly managed and that customers are not able to purchase more items than are available in the store.
 This is the scenario for this code :
 1. The function checks whether the item is available in the inventory by iterating over the rows in the product database using the iterrows() method. If the item is found in the inventory, the function checks whether the item is already in the customer's cart.
@@ -22,6 +22,14 @@ This is the scenario for this code :
 3. If the item is already in the cart, the function checks whether the combined quantity of the item in the cart and the requested quantity exceed the available inventory. If there is enough inventory, the function updates the quantity of the item in the cart and prints a confirmation message with the new quantity and price.
 4. If there is not enough inventory to fulfill the customer's order, the function prints an error message with the item's name and the available quantity in the inventory.
 5. If the item is not found in the inventory, the function prints an error message indicating that the item is not available for purchase.
+
+### update_item()
+This Function is essential feature of the self-service cashier program because it allows customers to make adjustments to their order, ensuring that they can purchase the products they need at the correct quantities and prices. By allowing customers to update their order, the program provides a more efficient and satisfying shopping experience. The function takes an item name as an argument and checks if it is already in the cart with this scenario :
+1. If the item is in the cart, the function prompts the user to enter the new product name for the item. If the user enters a new name, the function checks if the new name is available in the store's inventory. If the new name is available, the function updates the item's name in the cart.
+2. Next, the function prompts the user to enter a new quantity for the item. If the user enters a new quantity, the function checks if there is enough inventory in the store to fulfill the customer's request. If there is enough inventory, the function updates the quantity of the item in the cart.
+3. The function also prompts the user to enter a new price for the item. If the user enters a new price, the function updates the item's price in the cart.
+4. Finally, the function prints a confirmation message with the updated name, quantity, and price of the item.
+5. If the item is not in the cart, the function prints an error message indicating that the item is not available for update and prompts the user to add the item first.
 
 ## Test Cases & Results
 ### Test case 1: Add Item to Cart
