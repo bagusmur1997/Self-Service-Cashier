@@ -33,12 +33,23 @@ The following features are currently implemented in the program:
 <img src="/img/Test A5.png"/>
 
 ### Test case 2: Update Item from Cart
-**2.A : Update item contain in cart - change item name**
-**2.B : Update item contain in cart - change qty item**
-**2.C : Update item contain in cart - change price**
+**2.A : Update item contain in cart - change item name only**
 
+<img src="/img/Test B1.png"/>
 
-**2.D : Update item not contain in cart**
+**2.B : Update item contain in cart - change qty item only**
+
+<img src="/img/Test B2.png"/>
+
+**2.C : Update item contain in cart - change price only**
+
+<img src="/img/Test B3.png"/>
+
+**2.D : Result View Cart after all change (item, qty, price)**
+
+<img src="/img/Test B5.png"/>
+
+**2.E : Update item not contain in cart**
 
 <img src="/img/Test B4.png"/>
 
