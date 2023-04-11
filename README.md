@@ -53,4 +53,32 @@ The following features are currently implemented in the program:
 
 <img src="/img/Test B4.png"/>
 
+### Test case 3: Remove Item from Cart
 
+<img src="/img/Test C1.png"/>
+
+### Test case 4: Reset all transaction
+
+<img src="/img/Test D1.png"/>
+
+### Test case 5: Check Out Transaction
+
+**5.A : View Our Inventoy before check out transaction & List Item to checkout**
+
+<img src="/img/Test E1.png"/>
+
+<img src="/img/Test E2.png"/>
+
+**5.B : Check Out Process and Total Amount Price & Discount Applied**
+
+<img src="/img/Test E3.png"/>
+
+**5.C : View Our Inventoy after check out transaction**
+
+<img src="/img/Test E4.png"/>
+
+**5.D : Recapitulation Transaction Done in Excel File & Feedback in TXT File**
+
+<img src="/img/Test E5.png"/>
+
+<img src="/img/Test E6.png"/>
