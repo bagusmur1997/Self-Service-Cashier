@@ -14,6 +14,15 @@ The following features are currently implemented in the program:
 * `display_product_list()` : Displaying the inventory list of products available for purchase. the content displays of the products is 'product name, quantity available'.
 * `leave_feedback()` : Allow customers to leave feedback To improve the customer experience, this feedback used to improve the app in future updates.
 
+### `add_item()`
+This Function is essential part of the self-service cashier program because it allows customers to add items to their cart, which is crucial for the checkout process. The function ensures that the inventory is properly managed and that customers are not able to purchase more items than are available in the store.
+This is the scenario for this code :
+1. The function checks whether the item is available in the inventory by iterating over the rows in the product database using the iterrows() method. If the item is found in the inventory, the function checks whether the item is already in the customer's cart.
+2. If the item is not in the cart, the function checks whether there is enough inventory to fulfill the customer's order. If there is enough inventory, the item is added to the cart, and the function prints a confirmation message with the item's name, quantity, and price.
+3. If the item is already in the cart, the function checks whether the combined quantity of the item in the cart and the requested quantity exceed the available inventory. If there is enough inventory, the function updates the quantity of the item in the cart and prints a confirmation message with the new quantity and price.
+4. If there is not enough inventory to fulfill the customer's order, the function prints an error message with the item's name and the available quantity in the inventory.
+5. If the item is not found in the inventory, the function prints an error message indicating that the item is not available for purchase.
+
 ## Test Cases & Results
 ### Test case 1: Add Item to Cart
 **1.A : View Our Inventoy**
