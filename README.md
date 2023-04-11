@@ -31,6 +31,24 @@ This Function is essential feature of the self-service cashier program because i
 4. Finally, the function prints a confirmation message with the updated name, quantity, and price of the item.
 5. If the item is not in the cart, the function prints an error message indicating that the item is not available for update and prompts the user to add the item first.
 
+### delete_item()
+This method allows the user to remove an item from the shopping cart. It takes one parameter, name_item, which is the name of the item to be removed. If the item is present in the cart, it is removed using the del keyword, and a message is printed to indicate that the item has been removed. If the item is not present in the cart, a message is printed to indicate that the item was not found in the cart.
+
+### view_cart()
+This function is used to view the items in the cart and the total cost of those items. If there are no items in the cart, it will display a message saying that the cart is empty. If there are items in the cart, it will display a table showing the name of each item, the quantity of each item, the price per item, and the total price for each item. It will also display the grand total price for all the items in the cart. The output is formatted using the GitHub markdown syntax, and the tabulate library is used to format the table.
+
+### reset_transaction()
+This function is used to reset all transactions made by the user. It clears the user's shopping cart and prints a message indicating that all transactions have been reset successfully.
+
+### checkout()
+This is a method to process the checkout of items in a shopping cart. It calculates the total price of the items in the cart, applies a discount if applicable based on the total price, and prompts the user to confirm the checkout. If confirmed, it creates a new row in the transaction history with details of the items purchased, updates the inventory by reducing the quantity of items purchased, saves the updated inventory list to an excel file, and clears the cart. The method also calls another method to prompt the user to leave feedback about their shopping experience. If the checkout is canceled, the cart is not cleared.
+
+### display_product_list()
+This is a method to display the current list of products available in the store's inventory. It prints a header and a table containing two columns: 'Product Name' and 'Qty Available'. The data is obtained from the 'self.db' attribute, which is assumed to be a Pandas DataFrame. The table is displayed using the 'tabulate' function from the 'tabulate' library, using the 'github' table format.
+
+### leave_feedback()
+this function is used for user to provide a rating and comment about their shopping experience. The rating is expected to be an integer between 1 and 5, and the comment can be any text. The feedback is then stored in a file called feedback.txt in the format "Rating: <rating>, Comment: <comment>". Finally, the user is thanked for their feedback.
+
 ## Test Cases & Results
 ### Test case 1: Add Item to Cart
 **1.A : View Our Inventoy**
