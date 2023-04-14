@@ -67,6 +67,10 @@ this function is used for user to provide a rating and comment about their shopp
 
 <img src="/img/Test A5.png"/>
 
+**1.E : Wrong Input Data Type of Qty and Price**
+
+<img src="/img/Test A6.png"/>
+
 ### Test case 2: Update Item from Cart
 **2.A : Update item contain in cart - change item name only**
 
